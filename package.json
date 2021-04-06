@@ -1,28 +1,28 @@
 {
-  "name": "how-to-publish-a-npm-package",
-  "version": "1.2.1",
-  "description": "A quick tutorial on how you can publish your own npm package.",
+  "name": "chart-canvas",
+  "version": "1.0.0",
+  "description": "A chart write by canvas html and javascript",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vmarchesin/how-to-publish-a-npm-package.git"
+    "url": "git+https://github.com/hiolinh/chart-canvas.git"
   },
   "keywords": [
     "npm"
   ],
-  "author": "Vinicius Marchesin Araujo",
+  "author": "Hiolinh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vmarchesin/how-to-publish-a-npm-package/issues"
+    "url": "https://github.com/hiolinh/chart-canvas/issues"
   },
-  "homepage": "https://github.com/vmarchesin/how-to-publish-a-npm-package#readme",
+  "homepage": "https://github.com/hiolinh/chart-canvas#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "@babel/core": "^7.13.14",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
   }
 }
